@@ -1,0 +1,201 @@
+body 
+	{      
+		font-family: 'open sans', helvetica, arial, sans;
+		background-image: url("../images/cityscape.jpg");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+    
+	} 
+
+.upload_file_container{
+   width:100px;
+   height:40px;
+   position:relative;
+   background(your img);
+}
+
+.upload_file_container input{
+   width:100px;
+   height:40px;
+   position:absolute;
+   left:0;
+   top:0;
+   cursor:pointer;
+}	
+.my-container 
+	{
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		opacity: 0.6;
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+
+.col-half
+	{
+		padding-right: 10px;
+		float: left;
+		width: 50%;
+	}
+.col-gender 
+	{
+		padding-left: 20px;
+		float: left;
+		width: 41%;
+	}
+.col-date 
+	{
+		padding-right: 30px;
+		float: right;
+		width: 70%;
+	}
+.col-price 
+	{
+		padding-right: 10px;
+		float: left;
+		width: 42%;
+	}
+.login-page 
+	{  
+		position: relative; top: 0; right: 0; bottom: 0; left: 0; margin: auto;
+		width: 500px;
+		padding: 7% 0 0; 
+    }
+.form 
+	{  
+		position: absolute;
+		z-index: 1;
+		background: #FFFFFF;
+		padding: 30px;
+		text-align: center;
+		box-shadow: 40px 40px 40px 40px rgba(0, 0, 0, 0.2), 40px 20px 30px 40px rgba(0, 0, 0, 0.24);
+	}
+
+.form input[type="text"],input[type="password"],input[type="email"],textarea,input[type="file"],input[type="date"],input[type="text"]  
+	{
+		font-family: "Calibri", sans-serif;
+		outline: 0;
+		background: #f2f2f2;
+		width: 100%;
+		border: 0;
+		margin: 0 0 15px;
+		padding: 15px;
+		box-sizing: border-box;
+		font-size: 14px;
+  
+	}
+
+input[type="radio"] + label,select 
+	{
+		display: inline-block;
+		width: 75%;
+		text-align: center;
+		border-radius: 0;
+	}
+
+input[type="radio"] 
+	{
+		display: none;
+	}
+
+label.radio 
+	{
+		cursor: pointer;
+		text-indent: 35px;
+		overflow: visible;
+		display: inline-block;
+		position: relative;
+		margin-bottom: 15px;
+	}
+
+label.radio:before
+	{
+		background: #363636;
+		content:'';
+		position: absolute;
+		top:2px;
+		left: 0;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+	}
+
+label.radio:after 
+	{
+		opacity: 0;
+		content: '';
+		position: absolute;
+		width: 0.5em;
+		height: 0.25em;
+		background: transparent;
+		top: 7.5px;
+		left: 4.5px;
+		border: 3px solid #ffffff;
+		border-top: none;
+		border-right: none;
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+input[type=radio]:checked + label:after 
+	{
+		opacity: 1;
+	}
+
+.form .error
+	{
+		margin: 0 0 15px;
+		color: red;
+		font-size: 12px;
+	}
+	
+.form .message 
+	{
+		margin: 15px 0 0;
+		color: #b3b3b3;
+		font-size: 12px;
+	}
+
+.form .message a 
+	{
+		color: #4F4F4F;
+		text-decoration: none;
+	}
+	
+.form button 
+	{
+		font-family: "Calibri", sans-serif;
+		text-transform: uppercase;
+		outline: 0;
+		background: #363636;
+		width: 100%;
+		border: 0;
+		padding: 15px;
+		color: #FFFFFF;
+		font-size: 18px;
+		-webkit-transition: all 0.3 ease;
+		transition: all 0.3 ease;
+		cursor: pointer;
+    }
+.form button:hover,.form button:active,.form button:focus 
+	{
+		background: #4F4F4F;
+    }
